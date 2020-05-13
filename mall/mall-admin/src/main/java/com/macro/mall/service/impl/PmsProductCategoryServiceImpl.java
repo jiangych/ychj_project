@@ -67,7 +67,7 @@ public class PmsProductCategoryServiceImpl implements PmsProductCategoryService 
     }
 
     /**
-     * 修改商品分类
+     * mall修改商品分类。
      * @param id
      * @param pmsProductCategoryParam
      * @return
