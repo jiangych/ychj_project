@@ -66,12 +66,6 @@ public class PmsProductCategoryServiceImpl implements PmsProductCategoryService 
         productCategoryAttributeRelationDao.insertList(relationList);
     }
 
-    /**
-     * mall修改商品分类。
-     * @param id
-     * @param pmsProductCategoryParam
-     * @return
-     */
     @Override
     public int update(Long id, PmsProductCategoryParam pmsProductCategoryParam) {
         PmsProductCategory productCategory = new PmsProductCategory();
