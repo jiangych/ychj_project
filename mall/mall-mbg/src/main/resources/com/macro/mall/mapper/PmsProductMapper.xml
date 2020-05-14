@@ -459,7 +459,7 @@
       <include refid="Example_Where_Clause" />
     </if>
   </select>
-  <!-- 修改商品分类 -->
+
   <update id="updateByExampleSelective" parameterType="map">
     update pms_product
     <set>
